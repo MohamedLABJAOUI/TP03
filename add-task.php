@@ -17,14 +17,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Add Task</title>
+    <title>AddTask</title>
 </head>
 <body>
     <h1>Add Task</h1>
     <form method="POST">
-        <label>Title:</label>
+        <label>Title</label>
         <input type="text" name="title" required><br>
-        <label>Description:</label>
+        <label>Description</label>
         <textarea name="description"></textarea><br>
         <button type="submit">Add Task</button>
     </form>
